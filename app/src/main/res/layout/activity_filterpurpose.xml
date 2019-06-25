@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="목적"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="외식"
+        android:id="@+id/btOne"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="29dp"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이트"
+        android:id="@+id/btTwo"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소개팅"
+        android:id="@+id/btThree"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회식/모임"
+        android:id="@+id/btFour"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="혼밥"
+        android:id="@+id/btFive"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="끼니떼우기"
+        android:id="@+id/btSix"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="친구랑"
+        android:id="@+id/btSeven"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "638913402272",
+    "project_id": "onnauser"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638913402272:android:7658c1da57a43ea6",
+        "android_client_info": {
+          "package_name": "com.example.watsonz.onna927_beta_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbpg_d7l_M7bFVcmOYVFJ-VHfTUVa22CQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

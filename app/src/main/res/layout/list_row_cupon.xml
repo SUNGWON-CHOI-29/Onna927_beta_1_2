@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/store_img" />
+        <TextView android:id="@+id/tv_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="store"
+            android:layout_toRightOf="@id/store_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_store"
+            android:layout_toRightOf="@id/store_img"
+            android:layout_marginLeft="10dp"
+            android:text="tiem"
+            android:id="@+id/tv_time"/>
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/store_img"
+            android:layout_marginLeft="25dp"
+            android:text="메인" />
+        <TextView
+            android:id="@+id/tv_main_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_main"
+            android:textColor="@color/red"
+            android:text="1" />
+        <TextView
+            android:id="@+id/tv_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_main_num"
+            android:layout_marginLeft="10dp"
+            android:text="|  사이드" />
+        <TextView
+            android:id="@+id/tv_side_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_side"
+            android:textColor="@color/red"
+            android:text="1" />
+        <TextView
+            android:id="@+id/tv_drink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_side_num"
+            android:layout_marginLeft="10dp"
+            android:text="|  음료" />
+        <TextView
+            android:id="@+id/tv_drink_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_drink"
+            android:textColor="@color/red"
+            android:text="2" />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/verify"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/cupon_list_verify" />
+</RelativeLayout>

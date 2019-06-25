@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/price_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/filter_four_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="."
+        android:id="@+id/textView2"
+        android:layout_below="@id/price_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="천원"
+        android:id="@+id/textView1"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/numberPicker3"
+        android:layout_toEndOf="@+id/numberPicker3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/filter_four_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/price_content"
+        android:layout_alignLeft="@id/price_content"
+        android:layout_alignRight="@id/price_content"
+        android:layout_alignTop="@id/price_content"
+        android:gravity="center"
+
+        android:paddingLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker2"
+        android:layout_below="@id/price_content"
+        android:layout_marginTop="70dp"
+        android:layout_toLeftOf="@id/textView2"/>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker3"
+        android:layout_alignTop="@+id/numberPicker2"
+        android:layout_toRightOf="@+id/imageView11"
+        android:layout_toEndOf="@+id/imageView11" />
+
+</RelativeLayout>

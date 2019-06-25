@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="인원수"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1명"
+        android:id="@+id/btOne"
+        android:layout_marginTop="80dp"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2명~4명"
+        android:id="@+id/btTwo"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4명~8명"
+        android:id="@+id/btThree"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9명 이상"
+        android:id="@+id/btFour"
+        android:background="@color/bg_button"
+        android:textColor="@color/white"
+        android:layout_marginLeft="29dp"
+        android:textSize="18dp"
+        android:gravity="left|center"/>
+
+</LinearLayout>

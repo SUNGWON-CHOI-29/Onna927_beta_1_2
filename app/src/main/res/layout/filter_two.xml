@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/people_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/filter_two_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="210dp"
+        android:id="@+id/content_bg"
+        android:layout_below="@+id/people_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/filter_two_content_bg"/>
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="Plus"
+        android:id="@+id/button1"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/plus"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/people_content"
+        android:layout_marginTop="145dp"
+        android:layout_alignRight="@+id/content_bg"
+        android:layout_alignEnd="@+id/content_bg" />
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="Minus"
+        android:id="@+id/button2"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/minus"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/people_content"
+        android:layout_marginTop="145dp"
+        android:layout_alignLeft="@+id/content_bg"
+        android:layout_alignStart="@+id/content_bg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="30dp"
+        android:text="0 명"
+        android:id="@+id/textView"
+        android:layout_below="@+id/person1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="66dp"
+        android:id="@+id/person1"
+        android:layout_alignTop="@+id/content_bg"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/filter_two_people"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="66dp"
+        android:id="@+id/person2"
+        android:layout_alignTop="@+id/content_bg"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/person1"
+        android:src="@drawable/filter_two_people"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="66dp"
+        android:id="@+id/person3"
+        android:layout_alignTop="@+id/content_bg"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/person1"
+        android:src="@drawable/filter_two_people"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="66dp"
+        android:id="@+id/person4"
+        android:layout_alignTop="@+id/content_bg"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/person3"
+        android:src="@drawable/filter_two_people"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="66dp"
+        android:id="@+id/person5"
+        android:layout_alignTop="@+id/content_bg"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/person2"
+        android:src="@drawable/filter_two_people"/>
+    <TextView
+        android:id="@+id/filter_two_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/people_content"
+        android:layout_alignLeft="@id/people_content"
+        android:layout_alignRight="@id/people_content"
+        android:layout_alignTop="@id/people_content"
+        android:gravity="center"
+
+        android:paddingLeft="55dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+</RelativeLayout>

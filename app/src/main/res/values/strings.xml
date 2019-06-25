@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">OnnA</string>
+
+    <string name="title_section1">status</string>
+    <string name="title_section2">shkae</string>
+    <string name="title_section3">magazine</string>
+    <string name="title_section4">profile</string>
+
+    <string name="open">열려랏</string>
+    <string name="close">닫혀랏</string>
+
+    <string name="spinner_prompt">방문목적</string>
+    
+    <string name="action_settings">설정</string>
+    <string name="action_approve">승인</string>
+    <string name="action_search">검색</string>
+    
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="user">user</string>
+</resources>

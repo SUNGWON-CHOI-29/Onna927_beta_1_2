@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/time_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/filter_five_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker3"
+        android:layout_below="@id/time_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker1"
+        android:layout_toLeftOf="@+id/numberPicker2"
+        android:layout_alignTop="@+id/numberPicker3"/>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker4"
+        android:layout_alignTop="@+id/numberPicker3"
+        android:layout_toRightOf="@+id/numberPicker3"
+        android:layout_toEndOf="@+id/numberPicker3" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker2"
+        android:layout_alignTop="@id/numberPicker3"
+        android:layout_toLeftOf="@id/numberPicker3"
+        android:layout_toStartOf="@id/numberPicker3" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker5"
+        android:layout_alignTop="@+id/numberPicker4"
+        android:layout_toRightOf="@+id/numberPicker4"
+        android:layout_toEndOf="@+id/numberPicker4" />
+    <TextView
+        android:id="@+id/filter_five_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/time_content"
+        android:layout_alignLeft="@id/time_content"
+        android:layout_alignRight="@id/time_content"
+        android:layout_alignTop="@id/time_content"
+        android:gravity="center"
+
+        android:paddingLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+</RelativeLayout>

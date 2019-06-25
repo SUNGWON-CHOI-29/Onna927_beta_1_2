@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/place_bg"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/filter_one_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/people_bg"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/place_bg"
+        android:src="@drawable/filter_two_content"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/menu_bg"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/people_bg"
+        android:src="@drawable/filter_three_content"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/price_bg"
+        android:layout_below="@id/menu_bg"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/filter_four_content"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="28dp"
+        android:id="@+id/time_bg"
+        android:layout_below="@id/price_bg"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/filter_five_content"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/place_bg"
+        android:layout_alignLeft="@id/place_bg"
+        android:layout_alignRight="@id/place_bg"
+        android:layout_alignTop="@id/place_bg"
+        android:gravity="center"
+
+        android:paddingLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/people_bg"
+        android:layout_alignLeft="@id/people_bg"
+        android:layout_alignRight="@id/people_bg"
+        android:layout_alignTop="@id/people_bg"
+        android:gravity="center"
+
+        android:paddingLeft="55dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/menu_bg"
+        android:layout_alignLeft="@id/menu_bg"
+        android:layout_alignRight="@id/menu_bg"
+        android:layout_alignTop="@id/menu_bg"
+        android:gravity="center"
+
+        android:paddingLeft="55dp"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/price_bg"
+        android:layout_alignLeft="@id/price_bg"
+        android:layout_alignRight="@id/price_bg"
+        android:layout_alignTop="@id/price_bg"
+        android:gravity="center"
+
+        android:paddingLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/time_bg"
+        android:layout_alignLeft="@id/time_bg"
+        android:layout_alignRight="@id/time_bg"
+        android:layout_alignTop="@id/time_bg"
+        android:gravity="center"
+
+        android:paddingLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="58dp"
+        android:id="@+id/imageView12"
+        android:src="@drawable/filter_total_shake"
+        android:layout_below="@+id/time_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="134dp"
+        android:id="@+id/imageView13"
+        android:src="@drawable/filter_total_alert"
+        android:layout_below="@+id/imageView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>
