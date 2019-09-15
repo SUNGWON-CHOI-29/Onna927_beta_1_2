@@ -1,7 +1,5 @@
----
-['15.05 ~ '17.03] -
-<a href="https://github.com/SUNGWON-CHOI-29/Onna_publisher">Android Application2</a>
----
+# StartUp Project
+['15.05 ~ '17.03] - <a href="https://sungwon-choi-29.github.io/portfolio/2019-06-20-portpolio_content/">Gitblog post</a>
 
 AWS를 활용하여 웹서버 환경을 구축했고 php와 json을 활용하여
 Android / IOS Nativae 앱과 통신하였습니다.
